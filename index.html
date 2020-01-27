@@ -7,13 +7,17 @@
     <meta charset="utf-8">
     <title>Patient Journal - Prototype</title>
   </head>
-
+  <script type="text/javascript">
+    funcyion nyText() {
+    document.getElementById('change').innerHTML = "Nu er teksten ændret!";
+    }
+  </script>
   <body>
     <h1>Dette er første linje i min patient Journal</h1>
     <p id="change">Denne linje bliver ændret med java script</p>
     <p></p>
-    <script>
-    <button type="button" onclick="document.getElementById('change').innerHTML = 'Nu står der noget nyt'">Klik her</button>
-    </script>
+
+    <button type="button" onclick="nyText">Klik her</button>
+
   </body>
 </html>
